@@ -1,6 +1,6 @@
 package basicpatterns;
 
-public class pattern2_numbers {
+public class Pattern02_numbers {
 
 	public static void main(String[] args) {
 		

@@ -1,24 +1,21 @@
 package basicpatterns;
 
-public class Pattern6_CounterTriangle {
+public class Pattern04_counter {
 
 	public static void main(String[] args) {
-
+		
 		int count = 1;
 		
-		for(int i = 1; i <= 4 ; i++) {
+		for(int i = 1 ; i <= 3 ; i++ )
+		{
 			
-			for(int j = 1 ; j <= i ; j++) {
+			for(int j = 1 ; j <= 3 ; j++) {
 				
 				System.out.print(count + " ");
 				count++;
-				
 			}
-			
 			System.out.println();
-			
 		}
-		
 
 	}
 
